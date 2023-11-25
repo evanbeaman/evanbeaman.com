@@ -1,0 +1,122 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div id="sidenavbar">
+  <div id="profilepicparent"><a href="https://evanbeaman.com/"><img id="profilepicchild" src="https://images.squarespace-cdn.com/content/v1/64345eefcac0467b255fba5e/60ee3872-8bfc-4513-960f-1dd82d0a3510/Profile+Picture+2+%28small%29.jpg"></a></div>
+    <div id="socials">
+      <a href="https://instagram.com/evandbeaman" target="_blank"><div class="socialwrapper wrap2">
+        <div class="fa fa-instagram" style="font-size:20px"></div>
+      </div></a>
+      <a href="https://youtube.com/@evanbeaman/" target="_blank"><div class="socialwrapper wrap1">
+        <div class="fa fa-youtube-play" style="font-size:20px"></div>
+      </div></a>
+      <a href="https://www.linkedin.com/in/evanbeaman/" target="_blank"><div class="socialwrapper wrap3">  
+        <div class="fa fa-linkedin" style="font-size:15px"></div>
+      </div></a>
+    </div>
+    <div id="sidenavbarbuttons">
+      <a href="https://evanbeaman.com/"><div id="homebutton" class="navbuttonselected buttonpadding">HOME</div></a>
+      <a href="https://evanbeaman.com/videography"><div id="videographybutton" class="navbuttonunselected buttonpadding">VIDEOGRAPHY</div></a>
+      <a href="https://evanbeaman.com/videoediting"><div id="videoeditingbutton" class="navbuttonunselected buttonpadding">VIDEO EDITING</div></a>
+      <!--<a href="https://evanbeaman.com/photography"><div id="photographybutton" class="navbuttonunselected buttonpadding">PHOTOGRAPHY</div></a>-->
+      <!--<a href="https://evanbeaman.com/graphicdesign"><div id="graphicdesignbutton" class="navbuttonunselected buttonpadding">GRAPHIC DESIGN</div></a>-->
+      <!--<a href="https://evanbeaman.com/colorgrading"><div id="colorgradingbutton" class="navbuttonunselected buttonpadding">COLOR GRADING</div></a>-->
+      <a href="https://evanbeaman.com/backstory"><div id="backstorybutton" class="navbuttonunselected buttonpadding">BACKSTORY</div></a>
+      <a href="https://evanbeaman.com/contact"><div id="contact" class="navbuttonunselected buttonpadding">CONTACT</div></a>
+    </div>
+</div>
+<style>
+  #sidenavbar {
+    height:100vh;
+    width:225px;
+    /*background-image: url("https://images.squarespace-cdn.com/content/v1/64345eefcac0467b255fba5e/ec5c8e39-abe3-4e77-b30a-eeeea6cb73be/sidebar_grain.jpg");*/
+    background-image: url("https://i.imgur.com/iTUr76L.jpg");
+    background-position: 97% 10%;
+    background-size: auto 1100px;
+    position:fixed;
+  }
+  #profilepicparent{
+    position:absolute;
+    width:100%;
+    padding-top:30px;
+  }
+  #profilepicchild{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    width:125px;
+    border-radius: 50%;
+  }
+  .socialwrapper{
+    position:absolute;
+    height:30px;
+    width:30px;
+    top:190px;
+    box-shadow: 0 0 0 1px inset;
+    border-radius:50%;
+  }
+  .wrap1{
+    left:50%;
+    transform:translate(-50%);
+   }
+   .wrap2{
+    left:30%;
+    transform:translate(-50%);
+   }
+   .wrap3{
+    left:70%;
+    transform:translate(-50%);
+   }
+  .fa{
+    position:absolute;
+  }
+  .fa-instagram{
+    left:35%;
+    transform:translate(-25%, 25%);
+  }
+  .fa-youtube-play{
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+  .fa-linkedin{
+    left:65%;
+    transform:translate(-83%, 45%);
+  }
+  
+  #sidenavbarbuttons{
+    text-align:center;
+    padding-top:240px !important;
+    width:100%;
+  }
+  .buttonpadding{
+    position:relative;
+    margin-bottom:20px !important;
+    padding:10px 10px !important;
+    left:50%;
+    width:75%;
+    transform:translate(-50%)
+
+  }
+  .navbuttonunselected{
+      color:white;
+      font-size:15px;
+      border-radius:100px;
+      transition: 0.1s background-color linear, 0.1s color linear;
+  }
+  .navbuttonunselected:hover{
+      background-image: url(https://grainy-gradients.vercel.app/noise.svg) !important;
+      background-color: white;
+      color:black;
+      font-size:15px;
+      border-radius:100px;
+      transition: 0.1s background-color linear, 0.1s color linear;
+  }
+  .navbuttonselected{
+      background-image: url(https://grainy-gradients.vercel.app/noise.svg) !important;
+      background-color: white !important;
+      color:black;
+      border-radius:100px;
+      font-size:15px;
+      transition: 0.1s background-color linear, 0.1s color linear;
+  }
+  
+</style>
